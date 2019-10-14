@@ -1,0 +1,15 @@
+     1	root:x:0:0:root:/root:/bin/bash
+     2	bin:x:1:1:bin:/bin:/sbin/nologin
+     3	daemon:x:2:2:daemon:/sbin:/sbin/nologin
+     4	adm:x:3:4:adm:/var/adm:/sbin/nologin
+     5	lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+     6	sync:x:5:0:sync:/sbin:/bin/sync
+     7	shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+     8	halt:x:7:0:halt:/sbin:/sbin/halt
+     9	mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+    10	operator:x:11:0:operator:/root:/sbin/nologin
+    11	games:x:12:100:games:/usr/games:/sbin/nologin
+    12	ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+    13	nobody:x:99:99:Nobody:/:/sbin/nologin
+    14	systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
+    15	systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
